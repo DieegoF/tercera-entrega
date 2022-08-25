@@ -1,0 +1,24 @@
+/* Responsive */
+@media(max-width: 600px) {
+
+    .container-fluid{
+        flex-direction: column;
+    }
+    .nav{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer .row .main .btn-outline> div {
+        width: 50% !important;
+        margin-bottom: 30px;
+    }
+
+}
+@media only screen and (max-width: 574px) {
+    
+    .footer .row .main .btn-outline> div {
+        width: 100% !important;
+    }
+
+}

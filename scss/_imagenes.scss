@@ -1,0 +1,208 @@
+/*Imagenes*/
+
+img{
+    margin-top: 1rem;
+}
+.grid-container{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    color:$colordos;
+}
+
+.col-auto{
+    width: 400px;
+    background:$colordos;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: $coloruno;
+            box-shadow: 7px 13px 37px $coloruno;
+            font-size: 22px;
+            margin-bottom: 20px;
+            
+  
+        }
+
+        .col-auto{
+            width: 400px;
+            background:$colordos;
+            padding: 30px;
+            margin: auto;
+            margin-top: 100px;
+            border-radius: 4px;
+            font-family: 'calibri';
+            color:$coloruno;
+            box-shadow: 7px 13px 37px $coloruno;
+            font-size: 22px;
+            margin-bottom: 20px;
+           
+          }
+        
+          .botons {
+            width: 100%;
+            background: $coloruno;
+            border: none;
+            padding: 12px;
+            color: $coloruno;
+            margin: 16px 0;
+            font-size: 16px;
+          }
+          .botons-formulario{
+            @extend .botons;
+          }
+    
+        input {
+            width: auto;
+            border: 0;
+            outline: auto;
+        
+        
+        }
+        fieldset{
+            border: none;
+            padding: 10px;
+        }
+        legend{
+            border: none;
+            padding: 10px;
+        }
+        .flex-container img{
+            display: inline-block;
+            justify-content: space-evenly;
+            margin: auto;
+            margin-top: 2rem;
+        }
+        .flex-containermapa{
+            padding: 0%;
+            margin: 100px;
+           
+        }
+        .grid-container{ 
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            grid-auto-rows: minmax(200px, auto);
+            gap: 20px;
+            padding: 20px;
+            grid-auto-flow: dense;
+         }
+        .grid-item{
+            display: flex;
+            justify-content: center;
+        }
+        .grid-item:hover{
+            filter: opacity(0.9);
+            transform: scale(1.04);
+        }
+        .navbar-brand{
+            width: 150px;
+           
+        }
+      
+        
+        @media (min-width: 600px){ 
+            .wide{
+                grid-column: span 2;
+            }
+            
+            .tall{
+                grid-row: span 2;
+            }
+             }
+            .imagen{
+                    border: 100%;
+                    width: 100%;
+                    height: 200%;
+                }
+                
+                
+                img{
+                    padding: auto;
+                    width: 100%;
+                    height: 100%;
+                }
+
+/*Formulario*/
+
+.form-register{
+    width: 400px;
+            background:$colordos;
+            padding: 30px;
+            margin: auto;
+            margin-top: 100px;
+            border-radius: 4px;
+            font-family: 'calibri';
+            color: $coloruno;
+            box-shadow: 7px 13px 37px $coloruno;
+            font-size: 22px;
+            margin-bottom: 20px; }
+            
+            
+            .form-floating{
+                color: $colordos;
+  
+        }
+        .formulario{
+            width: 400px;
+            background:$colordos;
+            padding: 30px;
+            margin: auto;
+            margin-top: 100px;
+            border-radius: 4px;
+            font-family: 'calibri';
+            color: $coloruno;
+            box-shadow: 7px 13px 37px $coloruno;
+            font-size: 22px;
+            margin-bottom: 20px;
+           
+          }
+        
+          
+         .botons {
+            width: 100%;
+            background: $coloruno;
+            border: none;
+            padding: 12px;
+            color: $coloruno;
+            margin: 16px 0;
+            font-size: 16px;
+          }
+        
+        .form-input{
+            width: 100%;
+            background: $colordos;
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 16px;
+            border: 1px solid $coloruno;
+            font-family: 'calibri';
+            font-size: 18px;
+            color: $coloruno;
+        }
+        input {
+            width: auto;
+            border: 0;
+            outline: auto;
+        
+        
+        }
+        fieldset{
+            border: none;
+            padding: 10px;
+        }
+        legend{
+            border: none;
+            padding: 10px;
+        }
+
+    .form-label{
+        color: $colordos;
+    }
+    .botons{
+        background-color: $colordos;
+        border: none;
+
+        
+        }
